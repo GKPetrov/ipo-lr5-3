@@ -1,5 +1,5 @@
-a=open("text.txt")
-text=a.read()
-word_count=text.count(" ")
-print(f"число слов {word_count+1}")
-a.close()
+a=open("text.txt")#открытие файла
+text=a.read()#считывание файла
+word_count=text.count(" ")#Подсчет кол-ва слов
+print(f"число слов {word_count+1}")#Вывод
+a.close()#Закрытие
